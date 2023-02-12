@@ -1,7 +1,7 @@
 let str="Welcome to this Javascript Guide!";
 let ansStr="";
 for(let ind=0;ind<str.length;ind++){
-    if(str[ind]=" "){
+    if(str[ind]==" "){
         let start=ind-1;
         for(;str.charAt(start)!=" ";start--){
             ansStr+=str.charAt(start);
@@ -10,7 +10,6 @@ for(let ind=0;ind<str.length;ind++){
             }
         }
         ansStr+=" ";
-        
     }
     else if(ind==str.length-1){
         let start=ind;
@@ -20,8 +19,6 @@ for(let ind=0;ind<str.length;ind++){
                 break;
             }
         }
-        //str[ind]="";
-        
     }
 }
 
